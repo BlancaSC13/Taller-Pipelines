@@ -12,7 +12,7 @@ steps:
     projects: '**/*.csproj'
     workingDirectory: '$(System.DefaultWorkingDirectory)/SandboxProf'
 - task: DotNetCoreCLI@2
-  displayName:"Despliegue"
+  displayName: "Despliegue"
   inputs:
     command: 'publish'
     publishWebProjects: true
